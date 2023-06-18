@@ -23,7 +23,7 @@ function mintNFT (name , age , section , subject ) {
         "Sub": subject
     };
     NFTs.push(NFT);
-    console.log("Minted: "+name);
+    console.log("Added NFT: "+name);
 }
 
 // create a "loop" that will go through an "array" of NFT's
@@ -44,5 +44,7 @@ function getTotalSupply() {
 // call your functions below this line
 mintNFT("Pawash" , 20 , 905 , "CSE");
 mintNFT("Mohit" , 21 , 908 , "Mech");
+mintNFT("Pawan" , 22 , 905 , "CSE");
+mintNFT("Astha" , 21 , 909 , "Civil");
 listNFTs();
 getTotalSupply();
